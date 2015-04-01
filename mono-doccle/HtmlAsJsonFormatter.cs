@@ -2,7 +2,7 @@
 using System.Net.Http.Formatting;
 using System.Net.Http.Headers;
 
-namespace Doccledocumentretriever
+namespace MonoDoccle
 {
 	public class HtmlAsJsonFormatter : JsonMediaTypeFormatter 
 	{

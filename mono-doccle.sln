@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doccle-document-retriever", "Doccle-document-retriever\Doccle-document-retriever.csproj", "{5036B09E-024A-40B2-8C90-B0F0F9135EB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mono-doccle", "mono-doccle\mono-doccle.csproj", "{5036B09E-024A-40B2-8C90-B0F0F9135EB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

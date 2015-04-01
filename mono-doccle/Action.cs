@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Doccledocumentretriever
+namespace MonoDoccle
 {
 	public class Action
 	{

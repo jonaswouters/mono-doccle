@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Net.Http.Formatting;
 
-namespace Doccledocumentretriever
+namespace MonoDoccle
 {
 	class MainClass
 	{

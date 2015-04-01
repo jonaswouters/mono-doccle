@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Doccledocumentretriever
+namespace MonoDoccle
 {
 	public class Document
 	{
