@@ -1,15 +1,27 @@
 ﻿using System;
+using Newtonsoft.Json;
 
 namespace MonoDoccle
 {
 	public class Payment
 	{
-		public object amount { get; set; }
-		public double amountVAT { get; set; }
-		public string ogm { get; set; }
-		public string currency { get; set; }
-		public object dueDate { get; set; }
-		public string debitDate { get; set; }
+		[JsonProperty("amount")]
+		public object Amount { get; set; }
+
+		[JsonProperty("amountVAT")]
+		public double AmountVAT { get; set; }
+
+		[JsonProperty("ogm")]
+		public string Ogm { get; set; }
+
+		[JsonProperty("currency")]
+		public string Currency { get; set; }
+
+		[JsonProperty("dueDate")]
+		public object DueDate { get; set; }
+
+		[JsonProperty("debitDate")]
+		public DateTime DebitDate { get; set; }
 	}
 }
-
+	

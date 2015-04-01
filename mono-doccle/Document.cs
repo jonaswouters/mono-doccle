@@ -1,22 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace MonoDoccle
 {
 	public class Document
 	{
-		public string uri { get; set; }
-		public string contentUrl { get; set; }
-		public string creationDate { get; set; }
-		public string name { get; set; }
-		public string shortName { get; set; }
-		public bool opened { get; set; }
-		public string presentationType { get; set; }
-		public string senderDocumentType { get; set; }
-		public Object senderStyling { get; set; }
-		public Payment payment { get; set; }
-		public List<Action> actions { get; set; }
-		public Sender sender { get; set; }
-		public List<string> categories { get; set; }
+		[JsonProperty("uri")]
+		public string Uri { get; set; }
+
+		[JsonProperty("contentUrl")]
+		public string ContentUrl { get; set; }
+
+		[JsonProperty("creationDate")]
+		public DateTime CreationDate { get; set; }
+
+		[JsonProperty("name")]
+		public string Name { get; set; }
+
+		[JsonProperty("shortName")]
+		public string ShortName { get; set; }
+
+		[JsonProperty("opened")]
+		public bool Opened { get; set; }
+
+		[JsonProperty("presentationType")]
+		public string PresentationType { get; set; }
+
+		[JsonProperty("senderDocumentType")]
+		public string SenderDocumentType { get; set; }
+
+		[JsonProperty("senderStyling")]
+		public Object SenderStyling { get; set; }
+
+		[JsonProperty("payment")]
+		public Payment Payment { get; set; }
+
+		[JsonProperty("actions")]
+		public IList<Action> Actions { get; set; }
+
+		[JsonProperty("sender")]
+		public Sender Sender { get; set; }
+
+		[JsonProperty("categories")]
+		public IList<string> Categories { get; set; }
 	}
 }

@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace MonoDoccle
 {
 	public class RootObject
 	{
-		public List<Document> documents { get; set; }
+		[JsonProperty("documents")]
+		public IList<Document> Documents { get; set; }
 	}
 }
-
+	

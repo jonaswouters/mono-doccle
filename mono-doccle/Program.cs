@@ -41,8 +41,8 @@ namespace MonoDoccle
 					};
 
 					RootObject documents = await response.Content.ReadAsAsync<RootObject>(formatters);
-					foreach (Document document in documents.documents) {
-						Console.WriteLine("{0}", document.name);
+					foreach (Document document in documents.Documents) {
+						Console.WriteLine("{0}", document.Name);
 					}
 				}
 			}

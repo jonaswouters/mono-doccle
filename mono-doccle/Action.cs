@@ -1,13 +1,21 @@
 ﻿using System;
+using Newtonsoft.Json;
 
 namespace MonoDoccle
 {
 	public class Action
 	{
-		public int id { get; set; }
-		public string label { get; set; }
-		public string url { get; set; }
-		public bool enabled { get; set; }
+		[JsonProperty("id")]
+		public int Id { get; set; }
+
+		[JsonProperty("label")]
+		public string Label { get; set; }
+
+		[JsonProperty("url")]
+		public string Url { get; set; }
+
+		[JsonProperty("enabled")]
+		public bool Enabled { get; set; }
 	}
 }
-
+	

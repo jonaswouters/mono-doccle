@@ -1,11 +1,15 @@
 ﻿using System;
+using Newtonsoft.Json;
 
 namespace MonoDoccle
 {
 	public class Sender
 	{
-		public string id { get; set; }
-		public string label { get; set; }
+		[JsonProperty("id")]
+		public string Id { get; set; }
+
+		[JsonProperty("label")]
+		public string Label { get; set; }
 	}
 }
-
+	
