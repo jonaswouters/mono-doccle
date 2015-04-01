@@ -1,1 +1,16 @@
-﻿<Properties StartupItem="Doccle-document-retriever/Doccle-document-retriever.csproj" />
+﻿<Properties StartupItem="Doccle-document-retriever/Doccle-document-retriever.csproj" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Doccle-document-retriever/Program.cs">
+    <Files>
+      <File FileName="Doccle-document-retriever/Program.cs" Line="9" Column="39" />
+      <File FileName="Doccle-document-retriever/Payment.cs" Line="1" Column="1" />
+      <File FileName="Doccle-document-retriever/Document.cs" Line="22" Column="2" />
+      <File FileName="Doccle-document-retriever/Action.cs" Line="10" Column="11" />
+      <File FileName="Doccle-document-retriever/Sender.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
